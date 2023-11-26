@@ -1,0 +1,8 @@
+D:/SoftWareDemoStudy/cclsBuild/llvm_build/ccls/Release/CMakeFiles/ccls.dir
+D:/SoftWareDemoStudy/cclsBuild/llvm_build/ccls/Release/CMakeFiles/intrinsics_gen.dir
+D:/SoftWareDemoStudy/cclsBuild/llvm_build/ccls/Release/CMakeFiles/clang-tablegen-targets.dir
+D:/SoftWareDemoStudy/cclsBuild/llvm_build/ccls/Release/CMakeFiles/edit_cache.dir
+D:/SoftWareDemoStudy/cclsBuild/llvm_build/ccls/Release/CMakeFiles/rebuild_cache.dir
+D:/SoftWareDemoStudy/cclsBuild/llvm_build/ccls/Release/CMakeFiles/list_install_components.dir
+D:/SoftWareDemoStudy/cclsBuild/llvm_build/ccls/Release/CMakeFiles/install.dir
+D:/SoftWareDemoStudy/cclsBuild/llvm_build/ccls/Release/CMakeFiles/install/local.dir

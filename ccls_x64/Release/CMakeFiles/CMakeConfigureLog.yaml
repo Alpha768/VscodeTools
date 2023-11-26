@@ -1,0 +1,294 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/SoftWare/CMake/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake:233 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.19044 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/SoftWare/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/SoftWare/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/SoftWare/CMake/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: D:/SoftWareDemoStudy/cclsBuild/llvm_build/llvm/Release/bin/clang-cl.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.exe"
+      
+      The CXX compiler identification is Clang, found in:
+        D:/SoftWareDemoStudy/cclsBuild/llvm_build/ccls/Release/CMakeFiles/3.28.0-rc4/CompilerIdCXX/CMakeCXXCompilerId.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/SoftWare/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:1182 (message)"
+      - "D:/SoftWare/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:247 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "D:/SoftWare/CMake/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Detecting CXX compiler /showIncludes prefix:
+        Note: including file: ./foo.h
+        
+      Found prefix "Note: including file: "
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/SoftWare/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/SoftWare/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/SoftWare/CMake/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: D:/SoftWareDemoStudy/cclsBuild/llvm_build/llvm/Release/bin/clang-cl.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.exe"
+      
+      The C compiler identification is Clang, found in:
+        D:/SoftWareDemoStudy/cclsBuild/llvm_build/ccls/Release/CMakeFiles/3.28.0-rc4/CompilerIdC/CMakeCCompilerId.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/SoftWare/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:1182 (message)"
+      - "D:/SoftWare/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:247 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "D:/SoftWare/CMake/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Detecting C compiler /showIncludes prefix:
+        Note: including file: ./foo.h
+        
+      Found prefix "Note: including file: "
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/SoftWare/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "D:/SoftWare/CMake/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "D:/SoftWareDemoStudy/cclsBuild/llvm_build/ccls/Release/CMakeFiles/CMakeScratch/TryCompile-3qienx"
+      binary: "D:/SoftWareDemoStudy/cclsBuild/llvm_build/ccls/Release/CMakeFiles/CMakeScratch/TryCompile-3qienx"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "D:/SoftWareDemoStudy/cclsBuild/llvm_build/llvm/Release/bin/clang-scan-deps.exe"
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/SoftWareDemoStudy/cclsBuild/llvm_build/ccls/Release/CMakeFiles/CMakeScratch/TryCompile-3qienx'
+        
+        Run Build Command(s): D:/SoftWareDemoStudy/ninja/ninja.exe -v cmTC_79823
+        [1/2] D:\\SoftWareDemoStudy\\cclsBuild\\llvm_build\\llvm\\Release\\bin\\clang-cl.exe  /nologo -TP   /DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_79823.dir\\CMakeCXXCompilerABI.cpp.obj /FdCMakeFiles\\cmTC_79823.dir\\ -c -- D:\\SoftWare\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && D:\\SoftWare\\CMake\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_79823.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- D:\\SoftWareDemoStudy\\cclsBuild\\LLVM\\bin\\lld-link.exe /nologo CMakeFiles\\cmTC_79823.dir\\CMakeCXXCompilerABI.cpp.obj  /out:cmTC_79823.exe /implib:cmTC_79823.lib /pdb:cmTC_79823.pdb /version:0.0 /machine:X86  /debug /INCREMENTAL /subsystem:console   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/SoftWare/CMake/share/cmake-3.28/Modules/Internal/FeatureTesting.cmake:34 (try_compile)"
+      - "D:/SoftWare/CMake/share/cmake-3.28/Modules/Internal/FeatureTesting.cmake:84 (_record_compiler_features)"
+      - "D:/SoftWare/CMake/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake:121 (_record_compiler_features_cxx)"
+      - "D:/SoftWare/CMake/share/cmake-3.28/Modules/CMakeDetermineCompileFeatures.cmake:70 (cmake_record_cxx_compile_features)"
+      - "D:/SoftWare/CMake/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:70 (CMAKE_DETERMINE_COMPILE_FEATURES)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compile features"
+    directories:
+      source: "D:/SoftWareDemoStudy/cclsBuild/llvm_build/ccls/Release/CMakeFiles/CMakeScratch/TryCompile-q6jym7"
+      binary: "D:/SoftWareDemoStudy/cclsBuild/llvm_build/ccls/Release/CMakeFiles/CMakeScratch/TryCompile-q6jym7"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "D:/SoftWareDemoStudy/cclsBuild/llvm_build/llvm/Release/bin/clang-scan-deps.exe"
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+    buildResult:
+      variable: "CMAKE_CXX_FEATURE_TEST"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/SoftWareDemoStudy/cclsBuild/llvm_build/ccls/Release/CMakeFiles/CMakeScratch/TryCompile-q6jym7'
+        
+        Run Build Command(s): D:/SoftWareDemoStudy/ninja/ninja.exe -v cmTC_7beeb
+        [1/2] D:\\SoftWareDemoStudy\\cclsBuild\\llvm_build\\llvm\\Release\\bin\\clang-cl.exe  /nologo -TP   /DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Zi /Ob0 /Od /RTC1   -std:c++14 /showIncludes /FoCMakeFiles\\cmTC_7beeb.dir\\feature_tests.cxx.obj /FdCMakeFiles\\cmTC_7beeb.dir\\ -c -- D:\\SoftWareDemoStudy\\cclsBuild\\llvm_build\\ccls\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-q6jym7\\feature_tests.cxx
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && D:\\SoftWare\\CMake\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_7beeb.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- D:\\SoftWareDemoStudy\\cclsBuild\\LLVM\\bin\\lld-link.exe /nologo CMakeFiles\\cmTC_7beeb.dir\\feature_tests.cxx.obj  /out:cmTC_7beeb.exe /implib:cmTC_7beeb.lib /pdb:cmTC_7beeb.pdb /version:0.0 /machine:X86  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/SoftWare/CMake/share/cmake-3.28/Modules/Internal/FeatureTesting.cmake:34 (try_compile)"
+      - "D:/SoftWare/CMake/share/cmake-3.28/Modules/Internal/FeatureTesting.cmake:84 (_record_compiler_features)"
+      - "D:/SoftWare/CMake/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake:129 (_record_compiler_features_cxx)"
+      - "D:/SoftWare/CMake/share/cmake-3.28/Modules/CMakeDetermineCompileFeatures.cmake:70 (cmake_record_cxx_compile_features)"
+      - "D:/SoftWare/CMake/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:70 (CMAKE_DETERMINE_COMPILE_FEATURES)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compile features"
+    directories:
+      source: "D:/SoftWareDemoStudy/cclsBuild/llvm_build/ccls/Release/CMakeFiles/CMakeScratch/TryCompile-2aydbo"
+      binary: "D:/SoftWareDemoStudy/cclsBuild/llvm_build/ccls/Release/CMakeFiles/CMakeScratch/TryCompile-2aydbo"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "D:/SoftWareDemoStudy/cclsBuild/llvm_build/llvm/Release/bin/clang-scan-deps.exe"
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+    buildResult:
+      variable: "CMAKE_CXX_FEATURE_TEST"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/SoftWareDemoStudy/cclsBuild/llvm_build/ccls/Release/CMakeFiles/CMakeScratch/TryCompile-2aydbo'
+        
+        Run Build Command(s): D:/SoftWareDemoStudy/ninja/ninja.exe -v cmTC_6eef3
+        [1/2] D:\\SoftWareDemoStudy\\cclsBuild\\llvm_build\\llvm\\Release\\bin\\clang-cl.exe  /nologo -TP   /DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_6eef3.dir\\feature_tests.cxx.obj /FdCMakeFiles\\cmTC_6eef3.dir\\ -c -- D:\\SoftWareDemoStudy\\cclsBuild\\llvm_build\\ccls\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-2aydbo\\feature_tests.cxx
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && D:\\SoftWare\\CMake\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_6eef3.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- D:\\SoftWareDemoStudy\\cclsBuild\\LLVM\\bin\\lld-link.exe /nologo CMakeFiles\\cmTC_6eef3.dir\\feature_tests.cxx.obj  /out:cmTC_6eef3.exe /implib:cmTC_6eef3.lib /pdb:cmTC_6eef3.pdb /version:0.0 /machine:X86  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/SoftWare/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "D:/SoftWare/CMake/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "D:/SoftWareDemoStudy/cclsBuild/llvm_build/ccls/Release/CMakeFiles/CMakeScratch/TryCompile-bvtkz1"
+      binary: "D:/SoftWareDemoStudy/cclsBuild/llvm_build/ccls/Release/CMakeFiles/CMakeScratch/TryCompile-bvtkz1"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "D:/SoftWareDemoStudy/cclsBuild/llvm_build/llvm/Release/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/SoftWareDemoStudy/cclsBuild/llvm_build/ccls/Release/CMakeFiles/CMakeScratch/TryCompile-bvtkz1'
+        
+        Run Build Command(s): D:/SoftWareDemoStudy/ninja/ninja.exe -v cmTC_113f0
+        [1/2] D:\\SoftWareDemoStudy\\cclsBuild\\llvm_build\\llvm\\Release\\bin\\clang-cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_113f0.dir\\CMakeCCompilerABI.c.obj /FdCMakeFiles\\cmTC_113f0.dir\\ -c -- D:\\SoftWare\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && D:\\SoftWare\\CMake\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_113f0.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- D:\\SoftWareDemoStudy\\cclsBuild\\LLVM\\bin\\lld-link.exe /nologo CMakeFiles\\cmTC_113f0.dir\\CMakeCCompilerABI.c.obj  /out:cmTC_113f0.exe /implib:cmTC_113f0.lib /pdb:cmTC_113f0.pdb /version:0.0 /machine:X86  /debug /INCREMENTAL /subsystem:console   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/SoftWare/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "D:/SoftWare/CMake/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "D:/SoftWare/CMake/share/cmake-3.28/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "D:/SoftWare/CMake/share/cmake-3.28/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "CMakeLists.txt:116 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "D:/SoftWareDemoStudy/cclsBuild/llvm_build/ccls/Release/CMakeFiles/CMakeScratch/TryCompile-31zkim"
+      binary: "D:/SoftWareDemoStudy/cclsBuild/llvm_build/ccls/Release/CMakeFiles/CMakeScratch/TryCompile-31zkim"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "D:/SoftWareDemoStudy/cclsBuild/llvm_build/llvm/Release/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/SoftWareDemoStudy/cclsBuild/llvm_build/ccls/Release/CMakeFiles/CMakeScratch/TryCompile-31zkim'
+        
+        Run Build Command(s): D:/SoftWareDemoStudy/ninja/ninja.exe -v cmTC_d8477
+        [1/2] D:\\SoftWareDemoStudy\\cclsBuild\\llvm_build\\llvm\\Release\\bin\\clang-cl.exe  /nologo -DCMAKE_HAVE_LIBC_PTHREAD  /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_d8477.dir\\src.c.obj /FdCMakeFiles\\cmTC_d8477.dir\\ -c -- D:\\SoftWareDemoStudy\\cclsBuild\\llvm_build\\ccls\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-31zkim\\src.c
+        FAILED: CMakeFiles/cmTC_d8477.dir/src.c.obj 
+        D:\\SoftWareDemoStudy\\cclsBuild\\llvm_build\\llvm\\Release\\bin\\clang-cl.exe  /nologo -DCMAKE_HAVE_LIBC_PTHREAD  /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_d8477.dir\\src.c.obj /FdCMakeFiles\\cmTC_d8477.dir\\ -c -- D:\\SoftWareDemoStudy\\cclsBuild\\llvm_build\\ccls\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-31zkim\\src.c
+        D:\\SoftWareDemoStudy\\cclsBuild\\llvm_build\\ccls\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-31zkim\\src.c(1,10): fatal error: 'pthread.h' file not found
+        #include <pthread.h>
+                 ^~~~~~~~~~~
+        1 error generated.
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/SoftWare/CMake/share/cmake-3.28/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "D:/SoftWare/CMake/share/cmake-3.28/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "D:/SoftWare/CMake/share/cmake-3.28/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "CMakeLists.txt:116 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "D:/SoftWareDemoStudy/cclsBuild/llvm_build/ccls/Release/CMakeFiles/CMakeScratch/TryCompile-uleajf"
+      binary: "D:/SoftWareDemoStudy/cclsBuild/llvm_build/ccls/Release/CMakeFiles/CMakeScratch/TryCompile-uleajf"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "D:/SoftWareDemoStudy/cclsBuild/llvm_build/llvm/Release/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/SoftWareDemoStudy/cclsBuild/llvm_build/ccls/Release/CMakeFiles/CMakeScratch/TryCompile-uleajf'
+        
+        Run Build Command(s): D:/SoftWareDemoStudy/ninja/ninja.exe -v cmTC_6b14c
+        [1/2] D:\\SoftWareDemoStudy\\cclsBuild\\llvm_build\\llvm\\Release\\bin\\clang-cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3 -DCHECK_FUNCTION_EXISTS=pthread_create /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_6b14c.dir\\CheckFunctionExists.c.obj /FdCMakeFiles\\cmTC_6b14c.dir\\ -c -- D:\\SoftWareDemoStudy\\cclsBuild\\llvm_build\\ccls\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-uleajf\\CheckFunctionExists.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && D:\\SoftWare\\CMake\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_6b14c.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- D:\\SoftWareDemoStudy\\cclsBuild\\LLVM\\bin\\lld-link.exe /nologo CMakeFiles\\cmTC_6b14c.dir\\CheckFunctionExists.c.obj  /out:cmTC_6b14c.exe /implib:cmTC_6b14c.lib /pdb:cmTC_6b14c.pdb /version:0.0 /machine:X86  /debug /INCREMENTAL /subsystem:console  pthreads.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        FAILED: cmTC_6b14c.exe 
+        C:\\WINDOWS\\system32\\cmd.exe /C "cd . && D:\\SoftWare\\CMake\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_6b14c.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- D:\\SoftWareDemoStudy\\cclsBuild\\LLVM\\bin\\lld-link.exe /nologo CMakeFiles\\cmTC_6b14c.dir\\CheckFunctionExists.c.obj  /out:cmTC_6b14c.exe /implib:cmTC_6b14c.lib /pdb:cmTC_6b14c.pdb /version:0.0 /machine:X86  /debug /INCREMENTAL /subsystem:console  pthreads.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        LINK Pass 1: command "D:\\SoftWareDemoStudy\\cclsBuild\\LLVM\\bin\\lld-link.exe /nologo CMakeFiles\\cmTC_6b14c.dir\\CheckFunctionExists.c.obj /out:cmTC_6b14c.exe /implib:cmTC_6b14c.lib /pdb:cmTC_6b14c.pdb /version:0.0 /machine:X86 /debug /INCREMENTAL /subsystem:console pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_6b14c.dir/intermediate.manifest CMakeFiles\\cmTC_6b14c.dir/manifest.res" failed (exit code 1) with the following output:
+        lld-link.exe: error: could not open pthreads.lib: no such file or directory\x0d
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/SoftWare/CMake/share/cmake-3.28/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "D:/SoftWare/CMake/share/cmake-3.28/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "D:/SoftWare/CMake/share/cmake-3.28/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "CMakeLists.txt:116 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "D:/SoftWareDemoStudy/cclsBuild/llvm_build/ccls/Release/CMakeFiles/CMakeScratch/TryCompile-sqk9md"
+      binary: "D:/SoftWareDemoStudy/cclsBuild/llvm_build/ccls/Release/CMakeFiles/CMakeScratch/TryCompile-sqk9md"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "D:/SoftWareDemoStudy/cclsBuild/llvm_build/llvm/Release/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/SoftWareDemoStudy/cclsBuild/llvm_build/ccls/Release/CMakeFiles/CMakeScratch/TryCompile-sqk9md'
+        
+        Run Build Command(s): D:/SoftWareDemoStudy/ninja/ninja.exe -v cmTC_89981
+        [1/2] D:\\SoftWareDemoStudy\\cclsBuild\\llvm_build\\llvm\\Release\\bin\\clang-cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3 -DCHECK_FUNCTION_EXISTS=pthread_create /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_89981.dir\\CheckFunctionExists.c.obj /FdCMakeFiles\\cmTC_89981.dir\\ -c -- D:\\SoftWareDemoStudy\\cclsBuild\\llvm_build\\ccls\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-sqk9md\\CheckFunctionExists.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && D:\\SoftWare\\CMake\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_89981.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- D:\\SoftWareDemoStudy\\cclsBuild\\LLVM\\bin\\lld-link.exe /nologo CMakeFiles\\cmTC_89981.dir\\CheckFunctionExists.c.obj  /out:cmTC_89981.exe /implib:cmTC_89981.lib /pdb:cmTC_89981.pdb /version:0.0 /machine:X86  /debug /INCREMENTAL /subsystem:console  pthread.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        FAILED: cmTC_89981.exe 
+        C:\\WINDOWS\\system32\\cmd.exe /C "cd . && D:\\SoftWare\\CMake\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_89981.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- D:\\SoftWareDemoStudy\\cclsBuild\\LLVM\\bin\\lld-link.exe /nologo CMakeFiles\\cmTC_89981.dir\\CheckFunctionExists.c.obj  /out:cmTC_89981.exe /implib:cmTC_89981.lib /pdb:cmTC_89981.pdb /version:0.0 /machine:X86  /debug /INCREMENTAL /subsystem:console  pthread.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        LINK Pass 1: command "D:\\SoftWareDemoStudy\\cclsBuild\\LLVM\\bin\\lld-link.exe /nologo CMakeFiles\\cmTC_89981.dir\\CheckFunctionExists.c.obj /out:cmTC_89981.exe /implib:cmTC_89981.lib /pdb:cmTC_89981.pdb /version:0.0 /machine:X86 /debug /INCREMENTAL /subsystem:console pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_89981.dir/intermediate.manifest CMakeFiles\\cmTC_89981.dir/manifest.res" failed (exit code 1) with the following output:
+        lld-link.exe: error: could not open pthread.lib: no such file or directory\x0d
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+...
